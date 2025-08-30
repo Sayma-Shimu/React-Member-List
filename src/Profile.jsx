@@ -58,7 +58,7 @@ const Profile = () => {
             {
                 members.map((member) => (
 
-                    <div className="bg-slate-200 rounded-lg w-72 p-3 ml-3 flex flex-col justify-center items-center shadow-lg">
+                    <div className="bg-slate-200 rounded-lg w-72 p-3 flex flex-col justify-center items-center shadow-lg">
                         <div >
                             <img className="rounded-full mb-4" src={member.image} alt="" />
                         </div>
